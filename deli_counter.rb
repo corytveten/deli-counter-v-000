@@ -1,3 +1,5 @@
+
+=begin
 # Write your code here.
 katz_deli = []
 
@@ -28,4 +30,12 @@ def now_serving(katz_deli)
     puts "Currently serving #{katz_deli[0]}."
     katz_deli.shift
   end
+end
+
+=end
+
+katz_deli = []
+
+def line
+
 end
