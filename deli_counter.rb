@@ -36,11 +36,11 @@ end
 require 'pry'
 
 def line(katz_deli)
+  count = 0
   if katz_deli = []
     puts "The line is currently empty."
   else
     katz_deli.each {|person|
      puts "The line is currently #{person}."}
-     binding.pry
   end
 end
