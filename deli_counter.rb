@@ -38,11 +38,10 @@ end
 def line(katz_deli)
   katz_deli = []
   count = 0
-  if katz_deli == []
+  if katz_deli.size == 0
     puts "The line is currently empty."
   else
     katz_deli.each {|index, person|
      puts "The line is currently #{index}. #{person}."}
-     binding.pry
   end
 end
