@@ -45,6 +45,6 @@ def line(katz_deli)
       list << "#{counter+1}. #{person}"
       counter += 1
     }
-      puts "The line is currently: #{list.join}."
+      puts "The line is currently: #{list.join(" ")}."
   end
 end
