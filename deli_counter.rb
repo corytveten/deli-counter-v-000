@@ -41,9 +41,9 @@ def line(katz_deli)
   if list.size == 0
     puts "The line is currently empty."
   else
-    katz_deli.each {|person|
+    list.each {|person|
       list << person
       counter += 1
-      puts "The line is currently #{person}."}
+      puts "The line is currently #{counter}. #{person}."}
   end
 end
