@@ -39,4 +39,5 @@ katz_deli = []
 def line
   if katz_deli = []
     puts "The line is empty."
+  end
 end
