@@ -51,6 +51,8 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
+  counter = 1
+  puts "Welcome #{name}. You are number #{counter} in line."
 end
 
 def now_serving
