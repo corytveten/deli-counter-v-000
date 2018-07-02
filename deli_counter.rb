@@ -42,7 +42,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.each {|person|
-      list << "#{counter}. #{person}"
+      list << "#{counter+1}. #{person}"
       counter += 1
     }
       puts "The line is currently #{list}."
