@@ -1,4 +1,4 @@
-require 'Pry'
+require 'pry'
 =begin
 # Write your code here.
 katz_deli = []
