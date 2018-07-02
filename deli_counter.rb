@@ -41,7 +41,8 @@ def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
   else
-    katz_deli.each {|index, person|
-     puts "The line is currently #{index}. #{person}."}
+    katz_deli.each {|person|
+      katz_deli << person
+      puts "The line is currently #{counter}. #{person}."}
   end
 end
