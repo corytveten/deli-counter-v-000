@@ -44,6 +44,7 @@ def line(katz_deli)
     katz_deli.each {|person|
       list << person
       counter += 1
-      puts "The line is currently #{counter}. #{person}."}
+    }
+      puts "The line is currently #{counter}. #{person}."
   end
 end
