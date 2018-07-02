@@ -38,7 +38,7 @@ end
 def line(katz_deli)
   katz_deli = []
   count = 0
-  if katz_deli = []
+  if katz_deli == []
     puts "The line is currently empty."
   else
     katz_deli.each {|index, person|
