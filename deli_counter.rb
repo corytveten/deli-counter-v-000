@@ -1,4 +1,4 @@
-
+require 'Pry'
 =begin
 # Write your code here.
 katz_deli = []
@@ -33,7 +33,7 @@ def now_serving(katz_deli)
 end
 
 =end
-require 'pry'
+
 
 def line(katz_deli)
   katz_deli = []
@@ -43,5 +43,6 @@ def line(katz_deli)
   else
     katz_deli.each {|index, person|
      puts "The line is currently #{index}. #{person}."}
+     binding.pry
   end
 end
