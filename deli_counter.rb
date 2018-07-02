@@ -43,6 +43,7 @@ def line(katz_deli)
   else
     katz_deli.each {|person|
       katz_deli << person
+      counter += 1
       puts "The line is currently #{counter}. #{person}."}
   end
 end
