@@ -36,13 +36,13 @@ end
 
 
 def line(katz_deli)
-  katz_deli = []
+  list = []
   counter = 0
-  if katz_deli.size == 0
+  if list.size == 0
     puts "The line is currently empty."
   else
     katz_deli.each {|person|
-      katz_deli << person
+      list << person
       counter += 1
       "The line is currently #{counter}. #{person}."}
   end
