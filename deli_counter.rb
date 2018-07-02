@@ -36,7 +36,7 @@ end
 
 katz_deli = []
 
-def line
+def line(line)
   if katz_deli = []
     puts "The line is empty."
   end
