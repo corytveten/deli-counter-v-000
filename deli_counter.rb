@@ -33,7 +33,7 @@ def now_serving(katz_deli)
 end
 
 =end
-
+require 'pry'
 katz_deli = []
 
 def line(katz_deli)
@@ -42,5 +42,7 @@ def line(katz_deli)
   else
     katz_deli.each {|person|
      puts "The line is currently #{person}."}
+     binding.pry
   end
 end
+
