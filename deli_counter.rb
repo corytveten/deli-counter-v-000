@@ -57,5 +57,7 @@ end
 def now_serving(name)
   if katz_deli.size == 0
     puts "There is nobody waiting to be served!"
+  else
+    katz_deli.each 
   end
 end
