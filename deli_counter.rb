@@ -38,6 +38,6 @@ katz_deli = []
 
 def line(line)
   if katz_deli = []
-    puts "The line is empty."
+    puts "The line is currently empty."
   end
 end
