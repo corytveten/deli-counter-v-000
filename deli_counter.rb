@@ -36,8 +36,11 @@ end
 
 katz_deli = []
 
-def line(line)
+def line(katz_deli)
   if katz_deli = []
     puts "The line is currently empty."
+  else
+    katz_deli.each {|person|
+     puts "The line is currently #{person}."}
   end
 end
